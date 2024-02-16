@@ -3,10 +3,10 @@ Fancybox.bind('[data-fancybox="gallery-a"]', {
 });
 
 $(".owl-carousel").owlCarousel({
-  loop: true,
+  loop: false,
   margin: 10,
-  autoplay: true,
-  nav: true,
+  autoplay: false,
+  nav: false,
   responsive: {
     0: {
       items: 1,
@@ -15,7 +15,7 @@ $(".owl-carousel").owlCarousel({
       items: 3,
     },
     1000: {
-      items: 4,
+      items: 3,
     },
   },
 });
